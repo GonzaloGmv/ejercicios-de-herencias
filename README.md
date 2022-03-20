@@ -1,5 +1,19 @@
 # ejercicios-de-herencias
 
+El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub](https://github.com/GonzaloGmv/ejercicios-de-herencias)
+
+Autores:
+
+[Miguel](https://github.com/migueliiin)
+
+[Carlos](https://github.com/carlospuigserver)
+
+[Nacho](https://github.com/Nachopedrero)
+
+[Gonzalo](https://github.com/GonzaloGmv)
+
+[José Zazo](https://github.com/jzazooro)
+
 ### Ejercicio a. Herencia simple
 
 El código de este ejercicio es el siguiente:
