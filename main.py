@@ -29,4 +29,14 @@ if __name__ == "__main__":
         print("Pertenece el elemento c a la clase D?:"+str(isinstance(c,D)))
         print("a(A)={} \nb(B)={} \nc(C)={} \n".format(str(d.a),str(d.b),str(d.c)))
     if ejr =='d':
-        ejercicio = herenciamultiplecasoreal()
+        pared_norte = pared("NORTE") 
+        pared_oeste = pared("OESTE") 
+        pared_sur = pared("SUR") 
+        pared_este = pared("ESTE")
+        ventana_norte = ventana(pared_norte, 0.5) 
+        ventana_oeste = ventana(pared_oeste, 1) 
+        ventana_sur = ventana(pared_sur, 2) 
+        ventana_este = ventana(pared_este, 1)
+        casa = casa([pared_norte, pared_oeste, pared_sur, pared_este]) 
+
+        print(casa.superficieacristalada())
