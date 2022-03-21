@@ -22,11 +22,11 @@ if __name__ == "__main__":
         c = Punto3D(1,5,-3)
         c.traslacion(0, -2, 1)
         print("C = {}".format(c)) 
-    if (ejr =='c' or ejr =='C') :
+    elif (ejr =='c' or ejr =='C') :
         d = D(1,2,3)
         c = C(7,8)
         print("Pertenece el elemento d a la clase A?: {}\nPertenece el elemento d a la clase B?: {}\nPertenece el elemento d a la clase C?: {}".format(isinstance(d,A),isinstance(d,B),isinstance(d,C)))
         print("Pertenece el elemento c a la clase D?:"+str(isinstance(c,D)))
         print("a(A)={} \nb(B)={} \nc(C)={} \n".format(str(d.a),str(d.b),str(d.c)))
-    if ejr =='d':
+    elif ejr =='d':
         ejercicio = herenciamultiplecasoreal()
