@@ -1,6 +1,6 @@
 from clases.ejr_a import *
-from clases.ejr_c import ejercicio_c
-from clases.herenciamultiplecasoreal import *
+from clases.ejr_c import *
+#from clases.herenciamultiplecasoreal import *
 
 if __name__ == "__main__":
     while True:
@@ -23,6 +23,10 @@ if __name__ == "__main__":
         c.traslacion(0, -2, 1)
         print("C = {}".format(c)) 
     if (ejr =='c' or ejr =='C') :
-        ejercicio_c
+        d = D(1,2,3)
+
+        print("Pertenece el elemento d a la clase A?: {}\nPertenece el elemento d a la clase B?: {}\nPertenece el elemento d a la clase C?: {}".format(isinstance(d,A),isinstance(d,B),isinstance(d,C)))
+
+        print("a(A)={} \nb(B)={} \nc(C)={} \n".format(str(d.a),str(d.b),str(d.c)))
     if ejr =='d':
         ejercicio = herenciamultiplecasoreal()
