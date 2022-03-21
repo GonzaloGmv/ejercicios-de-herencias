@@ -1,5 +1,5 @@
 from clases.ejr_a import *
-
+from clases.herenciamultiplecasoreal import *
 if __name__ == "__main__":
     while True:
         ejr = input("Escriba el numero del ejercicio que desea iniciar, a, c o d: ")
@@ -20,3 +20,5 @@ if __name__ == "__main__":
         c = Punto3D(1,5,-3)
         c.traslacion(0, -2, 1)
         print("C = {}".format(c)) 
+    if ejr =='d':
+        ejercicio = herenciamultiplecasoreal()
