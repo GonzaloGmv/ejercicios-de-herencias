@@ -18,7 +18,7 @@ Autores:
 
 El UML de este ejercicio es el siguiente:
 
-![ejrA drawio](https://user-images.githubusercontent.com/91721237/159280218-019ddb29-964c-4781-a494-f14e9aa25b10.png)
+![ejrA](https://user-images.githubusercontent.com/91721237/159300230-5e1b078a-15bf-4f96-a840-e1289b56cbfa.png)
 
 El código de este ejercicio es el siguiente:
 ```
