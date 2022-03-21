@@ -16,6 +16,10 @@ Autores:
 
 ### Ejercicio a. Herencia simple
 
+El UML de este ejercicio es el siguiente:
+
+![ejrA drawio](https://user-images.githubusercontent.com/91721237/159280218-019ddb29-964c-4781-a494-f14e9aa25b10.png)
+
 El código de este ejercicio es el siguiente:
 ```
 class Punto2D:
