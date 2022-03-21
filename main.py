@@ -28,7 +28,7 @@ if __name__ == "__main__":
         print("Pertenece el elemento d a la clase A?: {}\nPertenece el elemento d a la clase B?: {}\nPertenece el elemento d a la clase C?: {}".format(isinstance(d,A),isinstance(d,B),isinstance(d,C)))
         print("Pertenece el elemento c a la clase D?:"+str(isinstance(c,D)))
         print("a(A)={} \nb(B)={} \nc(C)={} \n".format(str(d.a),str(d.b),str(d.c)))
-    if ejr =='d':
+    elif ejr =='d':
         pared_norte = pared("NORTE") 
         pared_oeste = pared("OESTE") 
         pared_sur = pared("SUR") 
