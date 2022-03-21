@@ -1,6 +1,6 @@
 from clases.ejr_a import *
 from clases.ejr_c import *
-#from clases.herenciamultiplecasoreal import *
+from clases.herenciamultiplecasoreal import *
 
 if __name__ == "__main__":
     while True:
