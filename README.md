@@ -62,7 +62,7 @@ c
 
 El UML de este ejercicio es el siguiente:
 
-![ejrA drawio](https://github.com/GonzaloGmv/ejercicios-de-herencias/blob/main/UML/herenciamultiplecasoreal.drawio.png)
+![ejerciciod drawio](https://github.com/GonzaloGmv/ejercicios-de-herencias/blob/main/UML/herenciamultiplecasoreal.drawio.png)
 
 El código de este ejercicio es el siguiente:
 
