@@ -58,6 +58,48 @@ cc
 c
 ```
 
+### Ejercicio c. Diamante y argumentos de constructor
+
+El UML que corresponde al ejercicio_c es el siguiente:
+
+![ejercicio_c drawio](https://user-images.githubusercontent.com/91721552/159300269-12292a0f-b7d3-4d45-b174-a91b72fa53fd.png)
+
+El código que es usado en el programa es el siguiente:
+````
+    class A:
+    def __init__(self,a):
+        self.a=a
+        a=A
+
+    class B(A):
+    def __init__(self,a,b):
+        self.b=b
+        self.a=a
+
+    class C(A):
+    def __init__(self,a,c):
+        self.c=c
+        self.a=a
+    
+    class D(B,C):
+    def __init__(self,a,b,c):
+        self.a=a
+        self.b=b
+        self.c=c
+
+    d = D(1,2,3)
+        c = C(7,8)
+        print("Pertenece el elemento d a la clase A?: {}    \n
+               Pertenece el elemento d a la clase B?: {}    \n
+               Pertenece el elemento d a la clase C?: {}    \n
+               ".format(isinstance(d,A),isinstance(d,B),isinstance(d,C)))
+
+        print("Pertenece el elemento c a la clase D?:"+str(isinstance(c,D)))
+
+        print("a(A)={} \nb(B)={} \nc(C)={} \n".format(str(d.a),str(d.b),str(d.c)))
+
+````
+
 ### Ejercicio d. Herencia multiple caso real
 
 El UML de este ejercicio es el siguiente:
